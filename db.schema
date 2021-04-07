@@ -1,1 +1,126 @@
+{
+    "shops" : {
+        "shop1": {
+            "id": "ID",
+            "name": "String",
+            "myshopifyDomain":,
+            "email":,
+            "billingAddress":,
+            "currencyCode":,
+            "currencyFormats",
+            "currencySettings",
+            "contactEmail",
+            "customers",
+            "sellingPlanGroups":,
+            "mySubscriptionContracts":,
+            "appPlan":,
+        },
+        "...."
+    },
+    "subscriptionContracts" : {
+        "subscontract1": {
+            "id":,
+            "url":,
+            "billingPolicy":,
+            "createdAt":,
+            "currencyCode":,
+            "customer":,
+            "customerPaymentMethod":,
+            "deliveryMethod":,
+            "deliveryPolicy":,
+            "deliveryProce:",
+            "discounts":,
+            "lastPaymentStatus":,
+            "lineCount":,
+            "lines":,
+            "nextBillindDate":,
+            "orders":,
+            "originOrder":,
+            "shop":,
+            "status":,
+            "updatedAt":,
+        },
+        "..."
+    },
+
+    "subscriptionOrders" : 
+    {
+        "order1": {
+            "billingAddress":,
+            "createdAt":,
+            "customer":,
+            "subscriptionContract":,
+            "id":,
+            "lineItems": {
+                "lineItem1" : {
+                    "products": {
+                        "name":,
+                        "id":,
+                    },
+                    "variant": {
+                        "price":,
+                        "id":,
+                    }
+                },
+                "..."
+            },
+            "name":,
+            "phone":,
+            "shippingAddress":,
+            "shop":,
+            "updatedAt":,
+        },
+        "..."
+    },
+
+    "customers": {
+        "custoemr1": {
+            "id":,
+            "addresses":,
+            "defaultAddress":,
+            "displayName":,
+            "email":,
+            "fisrName":,
+            "lastName":,
+            "orders":,
+            "paymentMethods",
+            "phone":,
+            "subscriptionContracts":,
+        },
+        "..."
+    },
+
+    "sellingPlanGroups" : {
+        "sellingPlanGroup1": {
+            "appliesToProduct":,
+            "appliesToProductVariant":,
+            "appliesToProductVariants":,
+            "createdAt":,
+            "description":,
+            "id":,
+            "merchantCode",
+            "name":,
+            "productCount":,
+            "productVariantCount":,
+            "productVariants":,
+            "products":,
+            "sellingPlans": {
+                "sellingPlans" : {
+                    "billingPolicy":,
+                    "createAt":,
+                    "deliveryPolicy":,
+                    "description":,
+                    "id":,
+                    "name":,
+                    "pricingPolicies":
+                },
+                "..."
+            },
+            "summary":,
+        },
+        "..."
+    },
+
+}
+
 
